@@ -27,18 +27,24 @@ margin-top: 50px;
  line-height: 80px;
 }
 #abc{
+  position: absolute;
   text-align: center;
   font-size: 4rem;;
   font-weight: bold;
   color:black;
-  margin-left: 25%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 #abcone{
+  position: absolute;
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
   color:black;
-  margin-left: 25%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 #write{
   position: relative;
@@ -57,7 +63,7 @@ margin-top: 50px;
   height:50px;
   width:10%;
   font-weight: bold;
-  border-radius:25%;
+  border-radius:25px;
   box-shadow: 0px 0px 30px 5px white;
   margin-left: 25%;
 }
